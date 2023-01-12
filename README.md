@@ -15,17 +15,17 @@ withdrawal charges
 ### Linux
 
 #### Dependencies
-
 - g++
 
-clone this repository
-`git clone https://github.com/Princeskydon8/atm.cpp/`
-go to the directory
-`cd atm.cpp`
-to compile the application
-`make`
-and to run it run the following
-`./atm`
+#### Compile and run
+- clone this repository    
+  `git clone https://github.com/Princeskydon8/atm.cpp/`
+- go to the directory    
+  `cd atm.cpp`
+- to compile the application     
+  `make`
+- and to run it run the following     
+  `./atm`
 
 to remove binaries:
 `make clean`
