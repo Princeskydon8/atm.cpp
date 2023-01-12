@@ -19,6 +19,7 @@ int main()
     showMen();
     cout <<"Option:";
     cin >> option;
+    // cls is windows specific, the euquivalent on linux is clear, change this if on Linux
     system("cls");
     switch(option) {
         case 1: cout << "Balance is: " <<balance <<" $ " << endl; break;
@@ -39,5 +40,6 @@ int main()
         }
     } while (option!=4);
 
+    // This is writing to a file called 0 on linux 
     system("pause>0");
 }
